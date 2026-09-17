@@ -60,10 +60,10 @@ This repository contains implementations and empirical analysis of four classic 
 Below are the empirical scaling plots generated from `results.csv`:
 
 **1. Execution Time vs. Input Size (n)**
-![Execution Time](plots/time_vs_n.svg)
+![Execution Time](docs/plots/time_vs_n.svg)
 
 **2. Recursion Depth vs. Input Size (n)**
-![Recursion Depth](plots/depth_vs_n.svg)
+![Recursion Depth](docs/plots/depth_vs_n.svg)
 
 ---
 
@@ -94,4 +94,4 @@ During this assignment, I reinforced my practical understanding of divide-and-co
 ## F. Screenshots
 
 ### Correctness Tests Output
-![Tests](./screenshots/test_results.jpg)
+![Tests](./docs/screenshots/test_results.jpg)
