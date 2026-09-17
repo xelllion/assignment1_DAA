@@ -1,0 +1,40 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='800' height='500' style='background:#ffffff;'>
+<text x='400' y='35' font-size='18' font-weight='bold' text-anchor='middle' font-family='sans-serif'>Recursion Depth vs Input Size (n)</text>
+<line x1='80' y1='440' x2='660' y2='440' stroke='#333' stroke-width='2'/>
+<line x1='80' y1='60' x2='80' y2='440' stroke='#333' stroke-width='2'/>
+<text x='370' y='485' font-size='14' text-anchor='middle' font-family='sans-serif'>Size (n)</text>
+<text x='25' y='250' font-size='14' text-anchor='middle' transform='rotate(-90 25 250)' font-family='sans-serif'>Max Recursion Depth</text>
+<circle cx='82.3' cy='313.3' r='4' fill='#e6194B'/>
+<circle cx='103.2' cy='237.3' r='4' fill='#e6194B'/>
+<circle cx='196.0' cy='186.7' r='4' fill='#e6194B'/>
+<circle cx='312.0' cy='161.3' r='4' fill='#e6194B'/>
+<circle cx='660.0' cy='110.7' r='4' fill='#e6194B'/>
+<polyline fill='none' stroke='#e6194B' stroke-width='3' points='82.3,313.3 103.2,237.3 196.0,186.7 312.0,161.3 660.0,110.7'/>
+<rect x='675' y='70' width='12' height='12' fill='#e6194B'/>
+<text x='695' y='80' font-size='12' font-family='sans-serif'>MergeSort</text>
+<circle cx='82.3' cy='338.7' r='4' fill='#3cb44b'/>
+<circle cx='103.2' cy='262.7' r='4' fill='#3cb44b'/>
+<circle cx='196.0' cy='262.7' r='4' fill='#3cb44b'/>
+<circle cx='312.0' cy='237.3' r='4' fill='#3cb44b'/>
+<circle cx='660.0' cy='212.0' r='4' fill='#3cb44b'/>
+<polyline fill='none' stroke='#3cb44b' stroke-width='3' points='82.3,338.7 103.2,262.7 196.0,262.7 312.0,237.3 660.0,212.0'/>
+<rect x='675' y='92' width='12' height='12' fill='#3cb44b'/>
+<text x='695' y='102' font-size='12' font-family='sans-serif'>QuickSort</text>
+<circle cx='82.3' cy='288.0' r='4' fill='#ffe119'/>
+<circle cx='103.2' cy='161.3' r='4' fill='#ffe119'/>
+<circle cx='196.0' cy='136.0' r='4' fill='#ffe119'/>
+<circle cx='312.0' cy='85.3' r='4' fill='#ffe119'/>
+<circle cx='660.0' cy='60.0' r='4' fill='#ffe119'/>
+<polyline fill='none' stroke='#ffe119' stroke-width='3' points='82.3,288.0 103.2,161.3 196.0,136.0 312.0,85.3 660.0,60.0'/>
+<rect x='675' y='114' width='12' height='12' fill='#ffe119'/>
+<text x='695' y='124' font-size='12' font-family='sans-serif'>DeterministicSelect</text>
+<circle cx='82.3' cy='262.7' r='4' fill='#4363d8'/>
+<circle cx='91.6' cy='212.0' r='4' fill='#4363d8'/>
+<circle cx='103.2' cy='186.7' r='4' fill='#4363d8'/>
+<circle cx='126.4' cy='161.3' r='4' fill='#4363d8'/>
+<circle cx='196.0' cy='136.0' r='4' fill='#4363d8'/>
+<circle cx='312.0' cy='110.7' r='4' fill='#4363d8'/>
+<polyline fill='none' stroke='#4363d8' stroke-width='3' points='82.3,262.7 91.6,212.0 103.2,186.7 126.4,161.3 196.0,136.0 312.0,110.7'/>
+<rect x='675' y='136' width='12' height='12' fill='#4363d8'/>
+<text x='695' y='146' font-size='12' font-family='sans-serif'>ClosestPair</text>
+</svg>
