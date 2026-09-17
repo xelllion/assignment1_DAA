@@ -1,23 +1,22 @@
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
-        int[] data = {12, 3, 5, 7, 4, 19, 26, 0, 1, 99, 14, 2};
-        int[] copy = data.clone();
-        Arrays.sort(copy);
-
-        // Let's find median index (middle element)
-        int k = data.length / 2;
+        Point[] points = {
+                new Point(2, 3),
+                new Point(12, 30),
+                new Point(40, 50),
+                new Point(5, 1),
+                new Point(12, 10),
+                new Point(3, 4) // (2,3) and (3,4) distance is ~1.414
+        };
 
         long startTime = System.nanoTime();
-        int result = DeterministicSelector.select(data, k);
+        ClosestPairSolver.Result res = ClosestPairSolver.findClosestPair(points);
         long endTime = System.nanoTime();
 
-        System.out.println("Original array sorted: " + Arrays.toString(copy));
-        System.out.println("Target index k: " + k + " (Expected value: " + copy[k] + ")");
-        System.out.println("Found by Select: " + result);
+        System.out.println("Closest points: " + res.p1 + " and " + res.p2);
+        System.out.println("Minimum distance: " + res.distance);
         System.out.println("Execution time: " + (endTime - startTime) + " ns");
-        System.out.println("Max recursion depth: " + DeterministicSelector.maxDepth);
-        System.out.println("Total comparisons: " + DeterministicSelector.comparisons);
+        System.out.println("Max recursion depth: " + ClosestPairSolver.maxDepth);
+        System.out.println("Distance checks: " + ClosestPairSolver.distanceCalculations);
     }
 }
