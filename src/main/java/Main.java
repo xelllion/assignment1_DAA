@@ -2,17 +2,18 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        int[] data = {38, 27, 43, 3, 9, 82, 10, 19, 50, 61, 2, 4};
+        int[] data = {55, 12, 89, 4, 23, 77, 90, 1, 15, 33};
 
-        System.out.println("Before sorting: " + Arrays.toString(data));
+        System.out.println("Before QuickSort: " + Arrays.toString(data));
 
         long startTime = System.nanoTime();
-        MergeSorter.sort(data);
+        QuickSorter.sort(data);
         long endTime = System.nanoTime();
 
-        System.out.println("After sorting: " + Arrays.toString(data));
+        System.out.println("After QuickSort: " + Arrays.toString(data));
         System.out.println("Execution time: " + (endTime - startTime) + " ns");
-        System.out.println("Max recursion depth: " + MergeSorter.maxDepth);
-        System.out.println("Comparisons count: " + MergeSorter.comparisons);
+        System.out.println("Max recursion depth: " + QuickSorter.maxDepth);
+        System.out.println("Total comparisons: " + QuickSorter.comparisons);
+        System.out.println("Total swaps: " + QuickSorter.swaps);
     }
 }
