@@ -93,5 +93,8 @@ During this assignment, I reinforced my practical understanding of divide-and-co
 
 ## F. Screenshots
 
+### Program Output
+![Program Output](./docs/screenshots/program_output.jpg)
+
 ### Correctness Tests Output
 ![Tests](./docs/screenshots/test_results.jpg)
